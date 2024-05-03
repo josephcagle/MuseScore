@@ -60,7 +60,7 @@ using PlaybackSetupData = mpe::PlaybackSetupData;
 
 static constexpr TrackId INVALID_TRACK_ID = -1;
 
-static constexpr int MINIMUM_BUFFER_SIZE = 1024;
+static constexpr int MINIMUM_BUFFER_SIZE = 64;
 
 enum class SoundTrackType {
     Undefined = -1,
